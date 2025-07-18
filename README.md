@@ -49,3 +49,58 @@ npx nx run-many --target=serve --all
 
 npx nx e2e api-gateway-e2e
 npx nx e2e auth-service-e2e
+
+🔐 Auth Service Details
+JWT-based Authentication
+
+Handles:
+
+User Registration
+
+Login & Token Issuance
+
+Token Validation
+
+You can extend it to support:
+
+Refresh tokens
+
+Role-based access
+
+OAuth2/Social login
+
+🌉 API Gateway Details
+Acts as a central entry point for all requests
+
+Proxies routes to internal microservices
+
+Potential for future:
+
+Rate limiting
+
+Request validation
+
+Service discovery
+
+Load balancing
+
+🤝 Contributing
+Pull requests and issues are welcome. Please open a discussion for large changes or feature proposals.
+
+📄 License
+MIT
+
+✨ Author
+Built with ❤️ by Varun P M 
+
+---
+
+### 🧠 Pro Tip:
+Want to go the extra mile?
+
+- Add a **monorepo dependency graph** with:
+  ```bash
+  npx nx graph
+
+![Node.js CI](https://img.shields.io/github/workflow/status/your-username/your-repo/Node.js%20CI)
+![License](https://img.shields.io/github/license/your-username/your-repo)
