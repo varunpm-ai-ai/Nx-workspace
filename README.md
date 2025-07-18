@@ -102,5 +102,3 @@ Want to go the extra mile?
   ```bash
   npx nx graph
 
-![Node.js CI](https://img.shields.io/github/workflow/status/your-username/your-repo/Node.js%20CI)
-![License](https://img.shields.io/github/license/your-username/your-repo)
